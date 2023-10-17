@@ -1,10 +1,6 @@
 <?php
-    $variavel = array(
-        "0" => "Casa1",
-        "nome" => "Jotta",
-        "idade" => 30,
-        "sexo" => "m"
-    );
+    //url + id do vídeo upado
+    $nome = $_GET["url"];
 
-    print_r($variavel);
+    echo"Seu esse vídeo tem o id".$nome;
 ?>
