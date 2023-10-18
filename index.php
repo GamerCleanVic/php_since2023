@@ -1,6 +1,10 @@
 <?php
-    //url + id do vídeo upado
-    $nome = $_GET["url"];
+    //const
+    define("URL", "https://twitter.com");
 
-    echo"Seu esse vídeo tem o id".$nome;
+    echo 
+        "O site é: <a 
+            href='https://twitter.com' target='_blank'
+        >".URL."</a>"
+    ;
 ?>
