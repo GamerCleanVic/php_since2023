@@ -1,0 +1,28 @@
+.navbar-main{
+    background-color: #333;
+    color: #ccc;
+    position: absolute;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.container-fluid{
+
+}
+.navbar-brand-a{
+    text-decoration: none;
+    background-color: lightgreen;
+    color: darkgreen;
+    padding: 2px;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}.navbar-brand-a:hover{
+    background-color: darkgreen;
+    color: #fff;
+    border: solid 2px#fff;
+}
