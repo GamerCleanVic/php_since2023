@@ -1,31 +1,17 @@
-<!DOCTYPE html>
-<html lang="en, pt_br, es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" /> -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- <script type="text/javascript" src="assets/js/jquery.min.js"><script/>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"><script/>
-    <script type="text/javascript" src="assets/js/script.js"><script/> -->
-    <title>CLASSIFICADOS</title>
-</head>
-<body>
-    <nav class="
-        navbar-main
-    ">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="./" class="navbar-brand-a">Classificados</a>
-            </div>
-            <div class="
-                nav
-                navba-bar
-                navbar-right
-            ">
-
-            </div>
+<?php require 'pages/header.php'; ?>
+    <div class="banner-fluid">
+        <div clas="banner-fluid-inside">
+            <h2>Nós temos hoje 999 anúncios.</h2>
+            <p>E mais de 999 usuários cadastrados.</p>
         </div>
-    </nav>
-</body>
-</html>
+    </div>
+    <div class="row-pesquisa">
+            <div col-anucio1>
+                <h4>Pesquisa avançada</h4>
+            </div>
+            <div col-anucio1>
+                <h4>Últimos anúncios</h4>
+            </div>
+    </div>
+
+<?php require 'pages/footer.php'; ?>
