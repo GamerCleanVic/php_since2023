@@ -111,3 +111,43 @@ body{
 .col-anuncio1{
     margin-left: 5px;
 }
+.banner-form1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #38a15b;
+    color: #ccc;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bloco-form1-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.bloco-nome1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0.7rem;
+}
+.btnForm1{
+    width: 23.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.submit-form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
