@@ -12,14 +12,16 @@
                 if(!empty($nome) && !empty($email) && !empty($senha)){
                     if($u->cadastrar($nome, $email, $senha, $telefone)){
                         ?>
-                            <script>
-                                alert(`<b>Parabéns</b> cadastrado com sucesso! <a href="login.php">Faça o login aqui.</a>`);
+                            <script type="text/javascript">
+                                alert(`Parabéns, cadastrado com sucesso! Faça o login.`);
+                                window.location.href="./login.php";
                             </script>
                         <?php
                     }else{
                         ?>
-                            <script>
-                                alert(`Este usuário já existe! <a href="login.php">Faça o login aqui.</a>`)
+                            <script type="text/javascript">
+                                alert(`Este usuário já existe! \nFaça o cadastro de outro usuário.`);
+                                window.location.href="./cadastro.php";
                             </script>
                         <?php
                     }
